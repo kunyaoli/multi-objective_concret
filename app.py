@@ -10,10 +10,11 @@ from pic_plot.plot_parallel import parallel
 from pic_plot.plt_scatter import plot_sacatter
 
 st.title("Concrete multi-label optimal")
-
-st.write("by CCCC Second Harbor Engineering Company LTD")
+st.write("Kunyao Li")
+st.write("CCCC Second Harbor Engineering Company LTD")
+st.write("likunyao@ccccltd.cn")
 st.write("---")
-target_concrete = st.number_input(label="Concrete Compressive Strength :", min_value=0, value=50)
+target_concrete = st.number_input(label="Concrete Compressive Strength :", min_value=0, value=45)
 cement_strength = st.number_input(label="Cement Strength :", min_value=0, value=42)
 concrete_var = st.number_input(label="Var :", min_value=1, value=2)
 termination_num = st.number_input(label="termination_num :", min_value=0, value=500)
