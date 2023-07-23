@@ -59,7 +59,7 @@ if st.button('run'):
         dataframe = pd.DataFrame(X)
         dataframe["COST"] = F[:, 1]
         dataframe["UCS"] = F[:, 0] * -1
-        st.dataframe(dataframe)
+        #st.dataframe(dataframe)
 
 
         @st.cache
