@@ -24,10 +24,10 @@ constrain_df = None
 
 if agree:
     constrain_df = pd.read_csv("./data/constrain.csv")
-    st.table(constrain_df)
+    #st.table(constrain_df)
 if constrain_file:
     constrain_df = pd.read_csv(constrain_file)
-    st.dataframe(constrain_df)
+    #st.dataframe(constrain_df)
 
 if st.button('run'):
     with st.spinner('Wait for it...'):
