@@ -23,8 +23,8 @@ agree = st.checkbox('Use example file', help="Built-in constraints")
 constrain_df = None
 
 if agree:
-    constrain_df = pd.read_csv("./data/constrain.csv").astype("float64")
-    st.dataframe(constrain_df)
+    constrain_df = pd.read_csv("./data/constrain.csv")
+    st.table(constrain_df)
 if constrain_file:
     constrain_df = pd.read_csv(constrain_file)
     st.dataframe(constrain_df)
