@@ -4,4 +4,4 @@ plotly==5.7.0
 pymoo==0.5.0
 scikit_learn==0.20.0
 streamlit==1.5.1
-jsonschema==0a10
+jsonschema==0.a10
